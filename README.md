@@ -9,7 +9,7 @@ A fun, interactive quiz game all about spooky movies and scary literature! Test 
 
 ## 🎮 Play Now!
 
-**[Click here to play the game!](https://YOUR_USERNAME.github.io/halloween-quiz-game/halloween-quiz.html)**
+**[Click here to play the game!](https://YOUR_USERNAME.github.io/halloween-quiz-game/)**
 
 > Replace `YOUR_USERNAME` with your actual GitHub username after uploading
 
@@ -94,7 +94,7 @@ A fun, interactive quiz game all about spooky movies and scary literature! Test 
 ```
 halloween-quiz-game/
 │
-├── halloween-quiz.html          # Main HTML file
+├── index.html                   # Main game file (homepage)
 ├── halloween-quiz.css           # All styles and animations
 ├── halloween-quiz.js            # Game logic and music system
 ├── HALLOWEEN-QUIZ-README.md     # Detailed documentation
@@ -114,13 +114,13 @@ cd halloween-quiz-game
 2. **Open in browser**
 ```bash
 # On Mac
-open halloween-quiz.html
+open index.html
 
 # On Windows
-start halloween-quiz.html
+start index.html
 
 # On Linux
-xdg-open halloween-quiz.html
+xdg-open index.html
 ```
 
 3. **Or use a local server** (recommended)
@@ -131,7 +131,7 @@ python -m http.server 8000
 # Node.js with http-server
 npx http-server
 
-# Then visit: http://localhost:8000/halloween-quiz.html
+# Then visit: http://localhost:8000
 ```
 
 ## 🎨 Customization
